@@ -154,7 +154,7 @@ function writeFormContact(){
 				<div class="row">
 					<div class="form-group col-sm-6">
 						<label for="name" class="h4">Nombre</label>
-						<input type="text" class="form-control" id="name" placeholder="Enter name" required data-error="NEW ERROR MESSAGE">
+						<input type="text" class="form-control" id="name" placeholder="Enter name" required data-error="Completa este campo">
 						<div class="help-block with-errors"></div>
 					</div>
 					<div class="form-group col-sm-6">
@@ -168,7 +168,7 @@ function writeFormContact(){
 					<textarea id="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
 					<div class="help-block with-errors"></div>
 				</div>
-				<button type="submit" id="form-submit" class="btn btn-success btn-lg pull-right ">Submit</button>
+				<button type="submit" id="form-submit" class="btn btn-success btn-lg pull-right ">Enviar</button>
 				<div id="msgSubmit" class="h3 text-center hidden"></div>
 				<div class="clearfix"></div>
 			</form>
