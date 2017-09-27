@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+video {
+    width: 100%;
+    height: auto;
+}
+</style>
+</head>
+<body>
+
+	
+			<div onmouseover="document.getElementById('videoPlayer').muted=false" onmouseout="document.getElementById('videoPlayer').muted=true">
+				<video width="400" id="videoPlayer" controls preload="auto" loop autoplay muted>
+				<source src="infografia-pt.mp4" type="video/mp4">
+				<div><div>Lo sentimos, tu explorador no es compatible con videos HTML5. Por favor actualiza a un explorador más reciente.</div></div>
+				</video>
+			
+<script>
+    var videoPlayer = document.getElementById('videoPlayer');
+    // Auto play, half volume.
+    videoPlayer.play()
+    videoPlayer.volume = 0.5;
+    // Play / pause.
+    videoPlayer.addEventListener('click', function () {
+        if (videoPlayer.paused == false) {
+            videoPlayer.pause();
+            videoPlayer.firstChild.nodeValue = 'Play';
+        } else {
+            videoPlayer.play();
+            videoPlayer.firstChild.nodeValue = 'Pause';
+        }
+    });
+	
+function idioma() { 
+    if (videoPlayer.paused) 
+        videoPlayer.play(); 
+    else 
+        videoPlayer.pause(); 
+}
+</script>
+
+</body>
+
+
+</html>
+
+
+		

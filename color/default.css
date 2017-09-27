@@ -1,0 +1,126 @@
+a:hover,
+a:focus {
+    color: #ffffff;
+	
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+ 
+    background-color: rgba(255, 255, 255, 0);
+	text-decoration: overline;
+}
+
+
+
+a,.tp-caption a.btn:hover {
+	color: #ffffff;
+	
+}
+.top-nav-collapse {
+	height: 80px;
+	background: #3873ae;
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+	color: #67b5e0;
+}
+
+.team-wrapper-big:hover .team-wrapper-overlay, .team-wrapper-small:hover .team-wrapper-overlay { background: #67b5e0; }
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color: #67b5e0;
+}
+
+.widget-avatar .avatar:hover {
+    border: 5px solid #67b5e0;
+}
+
+.bg-skin {
+	background: #67b5e0;
+}
+
+.highlight-color {
+	background-color: #67b5e0;
+}
+
+
+/* pricing box  */
+.pricing-box.skin {
+	background: #67b5e0;
+}
+
+
+/* portfolio */
+
+
+
+
+/* blog */
+
+ul.comment-meta li a:hover {
+	color: #67b5e0;
+}
+
+ul.comment-meta li.reply a {
+	background: #67b5e0;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  color: #67b5e0;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: #67b5e0;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #67b5e0;
+  border-color: #67b5e0;
+}
+.sidebar .widget ul li a:hover {
+	color: #67b5e0;
+}
+
+.widget .tagcloud a {
+  background: #67b5e0;
+}
+
+.flex-control-paging li a.flex-active { background: #67b5e0;
+	}
+/* team */
+.team-box {
+	background: #67b5e0;
+}
+
+form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
+	border-color: #67b5e0;
+}
+form.search-form input:focus {
+	border-color: #67b5e0;
+}
+
+/* footer */
+ul.footer-menu li a:hover {
+	color: #67b5e0;
+}
+
+footer a.totop:hover {
+	color: #67b5e0;
+}
+
+
+.btn-skin {
+  color: #fff;
+  background-color: #67b5e0;
+  border-color: #67b5e0;
+}
