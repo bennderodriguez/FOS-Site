@@ -60,6 +60,8 @@ function writejs() {
     <script src="js/analiticaGoogleFos.js"></script>
 	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script type="text/javascript" src="js/validator.min.js"></script>
+	<script type="text/javascript" src="js/form-scripts.js"></script>
 
 	
      <script>
@@ -144,39 +146,34 @@ function writeFormContact(){
 
 		</div>
 
-		<div class="container">
-
-			<div class="row marginbot-80">
-				<div class="col-md-8 col-md-offset-2">
-				    <div id="sendmessage">Your message has been sent. Thank you!</div>
-                    <div id="errormessage"></div>
-                    <form id="demo-form" action="php/form.php" method="post" role="form" class="contactForm">
-                        <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required/>
-                            <div class="validation"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" required/>
-                            <div class="validation"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required/>
-                            <div class="validation"></div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div class="validation"></div>
-                        </div>
-
-                        <div class="text-center">
-						
-						<button class="g-recaptcha btn btn-skin btn-lg btn-block" data-sitekey="6LcHNi4UAAAAACAII2_J0nHybDTWO038YPoUdJeK" data-callback="onSubmit"> Submit </button>
-						</div>
-                    </form>
+		<div class="row">
+		<div class="col-sm-6 col-sm-offset-3">
+			<div class="well">
+			
+			<form role="form" id="contactForm" data-toggle="validator" class="shake">
+				<div class="row">
+					<div class="form-group col-sm-6">
+						<label for="name" class="h4">Nombre</label>
+						<input type="text" class="form-control" id="name" placeholder="Enter name" required data-error="NEW ERROR MESSAGE">
+						<div class="help-block with-errors"></div>
+					</div>
+					<div class="form-group col-sm-6">
+						<label for="email" class="h4">Email</label>
+						<input type="email" class="form-control" id="email" placeholder="Enter email" required>
+						<div class="help-block with-errors"></div>
+					</div>
 				</div>
+				<div class="form-group">
+					<label for="message" class="h4 ">Mensaje</label>
+					<textarea id="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
+					<div class="help-block with-errors"></div>
+				</div>
+				<button type="submit" id="form-submit" class="btn btn-success btn-lg pull-right ">Submit</button>
+				<div id="msgSubmit" class="h3 text-center hidden"></div>
+				<div class="clearfix"></div>
+			</form>
 			</div>
-
-
+		</div>
 		</div>
 	</section>
 	<!-- /Section: contact -->
