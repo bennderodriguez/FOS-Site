@@ -204,6 +204,50 @@ writeHeader();
 		</div>
 		</div>
 	</section>
+	
+	<!-- Section:  -->
+    <section  class="home-section color-dark bg-white">
+		<div class="container marginbot-50">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+					<div class="section-heading text-center">
+					<h2 class="h-bold">Partners</h2>
+					<div class="divider-header"></div>
+				
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="text-center">
+		<div class="container">
+        <div class="row">
+			<div class="col-sm-4 col-xs-12">
+				<div class="wow fadeInUp" data-wow-delay="0.6s">
+                  <a href="https://www.dell.com/" target="_blank"> <img style="margin: auto; padding: 10px;" class="img-responsive text-center" src="img/dell.jpg" alt="dell"></a>
+				</div>
+            </div>
+			
+			<div class="col-sm-4 col-xs-12">
+				<div class="wow fadeInUp" data-wow-delay="0.4s">
+                  <a href="vmware.html" target="_blank"> <img style="margin: auto; padding: 10px;" class="img-responsive text-center" src="img/vmware.png" alt="vmware"></a>
+				</div>
+            </div>
+			
+			<div class="col-sm-4 col-xs-12">
+				<div class="wow fadeInUp" data-wow-delay="0.6s">
+                  <a href="https://www.microsoft.com/es-mx" target="_blank"> <img style="margin: auto; padding: 10px;" class="img-responsive text-center" src="img/microsoft.png" alt="microsoft"></a>
+				</div>
+            </div>
+
+
+        </div>
+		</div>
+		</div>
+	</section>
+	
+
 
 <!-- -------------------------------------------------------------------- -->
 <div id="about" class="container wow fadeInLeft" data-wow-delay="0.5s"><br>
@@ -309,6 +353,7 @@ function idioma() {
       </div>
     </div>
   </div>
+
 
 </body>
 </html>
